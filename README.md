@@ -26,9 +26,16 @@ repo : https://github.com/abhishekkyd/protractor-html-reporter-2
 
 Sample images
 ----------------------------------
+**Dashboard view:**
 <img src="https://raw.githubusercontent.com/abhishekkyd/protractor-html-reporter-2/master/Report-Dashboard.png" />
+
+**Testsuite view:**
 <img src="https://raw.githubusercontent.com/abhishekkyd/protractor-html-reporter-2/master/Report-TestSuite.png" />
+
+**Testcase view:**
 <img src="https://raw.githubusercontent.com/abhishekkyd/protractor-html-reporter-2/master/Report-TestCase.png" />
+
+**Screenshot view:**
 <img src="https://raw.githubusercontent.com/abhishekkyd/protractor-html-reporter-2/master/Report-Screenshot.png" />
 
 How to use
