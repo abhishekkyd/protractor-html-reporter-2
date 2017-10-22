@@ -1,0 +1,37 @@
+{
+  "name": "protractor-html-reporter-2",
+  "version": "1.0.0",
+  "description": "To generate HTML report for Protractor test execution with pie charts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhishekkyd/protractor-html-reporter-2.git"
+  },
+  "keywords": [
+    "protractor html reporter 2",
+    "protractor html reporter",
+    "protractor html report",
+    "protractor",
+    "html reporter",
+    "jasmine",
+    "protractor-xml2html-reporter",
+    "xml to html",
+    "xml2html"
+  ],
+  "author": "Abhishek Yadav <abhishek.yadav@helloselenium.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abhishekkyd/protractor-html-reporter-2/issues"
+  },
+  "homepage": "https://github.com/abhishekkyd/protractor-html-reporter-2#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "fs-extra": "^1.0.0",
+    "lodash": "^4.17.2",
+    "path": "^0.12.7",
+    "xmldoc": "^0.5.1"
+  }
+}
