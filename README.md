@@ -26,10 +26,10 @@ repo : https://github.com/abhishekkyd/protractor-html-reporter-2
 
 Sample images
 ----------------------------------
-<img src="https://raw.githubusercontent.com/abhishekkyd/protractor-html-reporter-2/master/Report-Dashboard.png" width="400" height="200" />
-<img src="https://raw.githubusercontent.com/abhishekkyd/protractor-html-reporter-2/master/Report-TestSuite.png" width="400" height="200" />
-<img src="https://raw.githubusercontent.com/abhishekkyd/protractor-html-reporter-2/master/Report-TestCase.png" width="400" height="200" />
-<img src="https://raw.githubusercontent.com/abhishekkyd/protractor-html-reporter-2/master/Report-Screenshot.png" width="400" height="200" />
+<img src="https://raw.githubusercontent.com/abhishekkyd/protractor-html-reporter-2/master/Report-Dashboard.png" />
+<img src="https://raw.githubusercontent.com/abhishekkyd/protractor-html-reporter-2/master/Report-TestSuite.png" />
+<img src="https://raw.githubusercontent.com/abhishekkyd/protractor-html-reporter-2/master/Report-TestCase.png" />
+<img src="https://raw.githubusercontent.com/abhishekkyd/protractor-html-reporter-2/master/Report-Screenshot.png" />
 
 How to use
 ----------------------------------
@@ -150,6 +150,6 @@ The name of platform on which the tests were executed.
 
 Credits
 ----------------------------------
-Thanks to @etxebe and all credits to developers of [protractor-html-reporter](https://github.com/etxebe/protractor-html-reporter) for nice protractor reporting. The protractor-html-reporter-2 is liitle bit html enhancement of this one. I've just fixed few things, some thing were added from pull requests and this reporter is still based on xml file.
+Thanks to [@etxebe](https://github.com/etxebe) and all credits to developers of [protractor-html-reporter](https://github.com/etxebe/protractor-html-reporter) for nice protractor reporting. The protractor-html-reporter-2 is liitle bit html enhancement of this one. I've just fixed few things, some thing were added from pull requests and this reporter is still based on xml file.
 
 
