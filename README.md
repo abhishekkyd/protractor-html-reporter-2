@@ -8,21 +8,26 @@ This reporter can also display screenshots taken on test failure. To get the scr
 
 repo : https://github.com/abhishekkyd/protractor-html-reporter-2
 
-**Changes which I made:**
+**Additional Changes from [protractor-html-reporter](https://github.com/etxebe/protractor-html-reporter):**
 
 -  Added **"100%" width** for TestSuite rows in CSS
 
--  Added current execution **platform** in report
+-  Added report name **outputFilename** capability for report
 
-`report.platform = testConfig.testPlatform || 'unknown';`
+`outputFilename: 'ProtractorTestReport'`
 
--  Added a new row for **Environment**, please suggest other heading if this not looks generic
+-  Added current execution **testPlatform** capability for report
+
+`testPlatform: platform`
+
+-  Added a new row for **Environment**
+
+<img src="https://raw.githubusercontent.com/abhishekkyd/protractor-html-reporter-2/master/images/Report-Dashboard.png" />
+
 -  Added condition statement for Failed and Skipped, it will not be displayed if the count is 0.
 
-```
-<% if (allSuites.failed != 0) { %><span class="label label-danger" title=<%= allSuites.reportAs %>>Failed: <%= allSuites.failed %></span> <% } %>
-<% if (allSuites.skipped != 0) { %><span class="label label-warning" title=<%= allSuites.reportAs %>>Skipped: <%= allSuites.skipped %></span> <% } %>
-```
+<img src="https://raw.githubusercontent.com/abhishekkyd/protractor-html-reporter-2/master/images/Report-Dashboard.png" />
+
 
 Sample images
 ----------------------------------
@@ -47,6 +52,7 @@ How to use
 	testConfig = {
                 reportTitle: 'Protractor Test Execution Report',
                 outputPath: './',
+                outputFilename: 'ProtractorTestReport',
                 screenshotPath: './screenshots',
                 testBrowser: browserName,
                 browserVersion: browserVersion
@@ -161,5 +167,3 @@ The name of platform on which the tests were executed.
 Credits
 ----------------------------------
 Thanks to [@etxebe](https://github.com/etxebe) and all credits to developers of [protractor-html-reporter](https://github.com/etxebe/protractor-html-reporter) for nice protractor reporting. The protractor-html-reporter-2 is liitle bit html enhancement of this one. I've just fixed few things, some thing were added from pull requests and this reporter is still based on xml file.
-
-
