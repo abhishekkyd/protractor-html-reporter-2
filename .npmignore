@@ -1,3 +1,6 @@
 node_modules
+example
+reports
 *.png
 *.md
+package-lock.json

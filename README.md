@@ -38,7 +38,7 @@ How to use
     var HTMLReport = require('protractor-html-reporter-2');
 
 	testConfig = {
-                reportTitle: 'Test Execution Report',
+                reportTitle: 'Protractor Test Execution Report',
                 outputPath: './',
                 screenshotPath: './screenshots',
                 testBrowser: browserName,
@@ -63,8 +63,9 @@ How to use
             var HTMLReport = require('protractor-html-reporter-2');
 
 			testConfig = {
-                reportTitle: 'Test Execution Report',
+                reportTitle: 'Protractor Test Execution Report',
                 outputPath: './',
+                outputFilename: 'ProtractorTestReport',
                 screenshotPath: './screenshots',
                 testBrowser: browserName,
                 browserVersion: browserVersion,
@@ -135,6 +136,8 @@ Options
 The report title displayed in generated html report.  
 * outputPath  
 The path where to write html report.
+* outputFilename  
+The name of html report file (without .html).
 * screenshotPath  
 The path where to look for screenshots (the path must be in the same location as html file report e.g. if html file report is in location /report/test-report.html the screenshots must be placed in directory /report/screenshots/.
 * testBrowser   

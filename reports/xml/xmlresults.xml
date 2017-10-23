@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Simple Protractor Test" timestamp="2017-10-23T11:39:14" hostname="localhost" time="14.22" errors="0" tests="3" skipped="0" disabled="0" failures="1">
+  <testcase classname="Simple Protractor Test" name="Open Google Search page" time="4.154" />
+  <testcase classname="Simple Protractor Test" name="search Hello Selenium" time="2.105">
+   <failure type="toContain" message="Expected &apos;https://www.google.co.in/search?source=hp&amp;q=hello+selenium&amp;oq=hello+selenium&amp;gs_l=psy-ab.12...1901.1957.0.2042.14.2.0.0.0.0.0.0..0.0....0...1..64.psy-ab..14.0.0....0.3JI0d2IrFr0&apos; to contain &apos;hello+seleniums&apos;."><![CDATA[Error: Failed expectation
+    at Object.<anonymous> (E:\myWorkspace\npm\protractor-html-reporter-2\example\spec.js:12:41)
+    at C:\Users\ab004ya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\ab004ya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1067:7)
+    at ControlFlow.promise (C:\Users\ab004ya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2396:12)
+    at schedulerExecute (C:\Users\ab004ya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\ab004ya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2970:14)
+    at TaskQueue.executeNext_ (C:\Users\ab004ya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2953:27)
+    at asyncRun (C:\Users\ab004ya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2813:27)
+    at C:\Users\ab004ya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:676:7]]>
+   </failure>
+  </testcase>
+  <testcase classname="Simple Protractor Test" name="Open Hello Selenium Result Page" time="7.956" />
+ </testsuite>
+</testsuites>
