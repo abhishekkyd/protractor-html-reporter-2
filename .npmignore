@@ -1,6 +1,7 @@
 node_modules
 example
 reports
+images
 *.png
 *.md
 package-lock.json

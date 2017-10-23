@@ -17,8 +17,8 @@
           <div class="project-name visible-md visible-lg"><%= report.name %></div>
           <div class="label-container">
             <span class="label label-success" title=<%= allSuites.reportAs %>>Passed: <%= allSuites.passed %></span>
-            <span class="label label-danger" title=<%= allSuites.reportAs %>>Failed: <%= allSuites.failed %></span>
-            <span class="label label-warning" title=<%= allSuites.reportAs %>>Skipped: <%= allSuites.skipped %></span>
+            <% if (allSuites.failed != 0) { %><span class="label label-danger" title=<%= allSuites.reportAs %>>Failed: <%= allSuites.failed %></span> <% } %>
+			<% if (allSuites.skipped != 0) { %><span class="label label-warning" title=<%= allSuites.reportAs %>>Skipped: <%= allSuites.skipped %></span> <% } %>
             <span class="label label-info">Time Elapsed: <%= allSuites.totalTime %></span>
           </div>
         </div>
