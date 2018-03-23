@@ -1,6 +1,8 @@
 protractor-html-reporter-2
 =================================
 
+[![NPM version](https://img.shields.io/npm/v/protractor-html-reporter-2.svg)](https://www.npmjs.com/package/protractor-html-reporter-2)
+
 This package is inspired by [protractor-html-reporter](https://github.com/etxebe/protractor-html-reporter) which developed based upon inspiration of [cucumber-html-report](https://www.npmjs.com/package/cucumber-html-reporter).
 
 You can use this package to generate HTML report for Protractor test execution with pie charts based on xml file with tests results. For generating xml file with tests results you can use  [jasmine-reporters] (https://www.npmjs.com/package/jasmine-reporters).   
