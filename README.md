@@ -2,6 +2,7 @@ protractor-html-reporter-2
 =================================
 
 [![NPM version](https://img.shields.io/npm/v/protractor-html-reporter-2.svg)](https://www.npmjs.com/package/protractor-html-reporter-2)
+[![Known Vulnerabilities](https://snyk.io/test/github/abhishekkyd/protractor-html-reporter-2/badge.svg)](https://snyk.io/test/github/abhishekkyd/protractor-html-reporter-2)
 
 This package is inspired by [protractor-html-reporter](https://github.com/etxebe/protractor-html-reporter) which developed based upon inspiration of [cucumber-html-report](https://www.npmjs.com/package/cucumber-html-reporter).
 
