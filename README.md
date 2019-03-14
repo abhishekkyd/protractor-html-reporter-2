@@ -167,6 +167,11 @@ To display screenshots only in testcases that failed. Default value is "true".
 * testPlatform 
 The name of platform on which the tests were executed.
 
+Thanks for using #protractor-html-report-2
+----------------------------------------------
+[wilsonmar.github.io - Wilson Mar](https://wilsonmar.github.io/protractor), [applandeo.com - Tomasz Kocerba](https://applandeo.com/blog/automated-testing-of-angular-application-using-protractor), [medium.com - Thilina Gunarathna][https://medium.com/@gtgunarathna/test-result-report-configuration-for-protractor-test-suite-c36f58b7b616] -- Thanks to Thilina Gunarathna
+[TrailHeadTechnology.com - Vitalii Chmovzh](https://trailheadtechnology.com/ui-automation-testing-of-angular-apps-using-protractor-jasmine/)
+
 Credits
 ----------------------------------
 Thanks to [@etxebe](https://github.com/etxebe) and all credits to developers of [protractor-html-reporter](https://github.com/etxebe/protractor-html-reporter) for nice protractor reporting. The protractor-html-reporter-2 is liitle bit html enhancement of this one. I've just fixed few things, some thing were added from pull requests and this reporter is still based on xml file.
