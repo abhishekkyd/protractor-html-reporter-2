@@ -4,7 +4,7 @@
   "description": "To generate HTML report for Protractor test execution with pie charts",
   "main": "index.js",
   "scripts": {
-    "test": "protractor example/conf.js"
+    "test": "protractor examples/example1/conf.js"
   },
   "repository": {
     "type": "git",
@@ -33,6 +33,7 @@
     "jasmine-reporters": "^2.2.1",
     "lodash": "^4.17.4",
     "path": "^0.12.7",
+    "test": "^0.6.0",
     "xmldoc": "^0.5.1"
   }
 }

@@ -9,7 +9,7 @@ describe('Simple Protractor Test', function() {
 		element(by.name('q')).clear();
 		element(by.name('q')).sendKeys('hello selenium');
 		element(by.name('btnK')).click();
-        expect(browser.getCurrentUrl()).toContain('hello seleniums'.replace(new RegExp(" ", 'g'), "+"));
+        expect(browser.getCurrentUrl()).toContain('hello selenium'.replace(new RegExp(" ", 'g'), "+"));
     });
 
     it('Open Hello Selenium Result Page', function () {

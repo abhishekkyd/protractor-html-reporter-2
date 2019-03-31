@@ -46,6 +46,7 @@ Sample images
 **Screenshot view:**
 <img src="https://raw.githubusercontent.com/abhishekkyd/protractor-html-reporter-2/master/images/Report-Screenshot.png" />
 
+
 How to use
 ----------------------------------
 * Converting the xml file to html
@@ -146,6 +147,7 @@ How to use
       ```
 If you want to display your screenshots on report you have to pass testBrowser (it's the name of the browser) in testConfig object, because the screenshot's names are in format "browserName-*.png" (e.g. "chrome-*.png").
 
+
 Options
 ----------------------------------      
 * reportTitle  
@@ -167,12 +169,14 @@ To display screenshots only in testcases that failed. Default value is "true".
 * testPlatform 
 The name of platform on which the tests were executed.
 
+
 Thanks for using #protractor-html-report-2
 ----------------------------------------------
 [wilsonmar.github.io - Wilson Mar](https://wilsonmar.github.io/protractor)  
 [applandeo.com - Tomasz Kocerba](https://applandeo.com/blog/automated-testing-of-angular-application-using-protractor)  
 [medium.com - Thilina Gunarathna](https://medium.com/@gtgunarathna/test-result-report-configuration-for-protractor-test-suite-c36f58b7b616)  
 [TrailHeadTechnology.com - Vitalii Chmovzh](https://trailheadtechnology.com/ui-automation-testing-of-angular-apps-using-protractor-jasmine)
+
 
 Credits
 ----------------------------------
