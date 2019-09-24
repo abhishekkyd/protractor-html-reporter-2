@@ -59,10 +59,18 @@ How to use
                 outputFilename: 'ProtractorTestReport',
                 screenshotPath: './screenshots',
                 testBrowser: browserName,
-                browserVersion: browserVersion
+                browserVersion: browserVersion,
+                appVersion: '1.23'
             };
     new HTMLReport().from('xmlresults.xml', testConfig);
     ```
+
+    ---
+    
+    #### Info
+    appVersion - additional attribute. If appVersion option is set, this information it will be displayed under *Environment* section. In other way, it will be not mentioned under *Environment* section
+
+    ---
 
 * Using with protractor conf.js file
 
