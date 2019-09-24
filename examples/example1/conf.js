@@ -3,6 +3,14 @@ var jasmineReporters = require('jasmine-reporters');
 var htmlReporter = require('../lib/protractor-xml2html-reporter');
 var fs = require('fs-extra');
 
+const capitalize = (s) => {
+  if (typeof s !== 'string') {
+    return ''
+  } else {
+    return s.charAt(0).toUpperCase() + s.slice(1)
+  }
+}
+
 exports.config = {
 	
     seleniumAddress: 'http://localhost:4444/wd/hub',
@@ -38,7 +46,7 @@ exports.config = {
 						var browserName = caps.get('browserName');
 
 						browser.takeScreenshot().then(function (png) {
-							var stream = fs.createWriteStream('./reports/screenshots/' + browserName + '-' + result.fullName + '.png');
+							var stream = fs.createWriteStream('./reports/screenshots/' + capitalize(browserName) + '-' + result.fullName + '.png');
 							stream.write(new Buffer(png, 'base64'));
 							stream.end();
 						});
@@ -54,10 +62,21 @@ exports.config = {
 
         capsPromise.then(function (caps) {
             browserName = caps.get('browserName');
-            browserVersion = caps.get('version');
-            platform = caps.get('platform');
+
+            if (typeof caps.get('browserVersion') === 'undefined') {
+                browserVersion = caps.get('Version')
+            } else {
+                browserVersion = caps.get('browserVersion')
+            }
+
+            if (typeof caps.get('platform') === 'undefined') {
+                platform = caps.get('platformName')
+            } else{
+                platform = caps.get('platform')
+            }
 
             testConfig = {
+                appVersion: 'someVersion',
                 reportTitle: 'Protractor Test Execution Report',
                 outputPath: './reports/',
                 outputFilename: 'ProtractorTestReport',
